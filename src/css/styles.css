@@ -223,3 +223,11 @@
   border: 3px solid transparent;
   border-bottom-color: #6c8cff;
 }
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
